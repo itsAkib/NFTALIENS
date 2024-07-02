@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-location-dot"></i>84 Forest Ave, Lake Grove, New York</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i>(+12) 345-678-91012</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i>contact.colorlib@gmail.com</a>
+            </li>
+          </ul>
+          <div class="header__top__social">
+            <a href="#"><span class="social_facebook"><i class="fa-brands fa-facebook"></i></span></a>
+            <a href="#"><span class="social_twitter"><i class="fa-brands fa-twitter"></i></span></a>
+            <a href="#"><span class="social_youtube"><i class="fa-brands fa-youtube"></i></span></a>
+            <a href="#"><span class="social_skype"><i class="fa-brands fa-skype"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!----------------------mobile navbar end--------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="header__top__widget">
+                <ul>
+                  <li><span class="icon_pin"><i class="fa-solid fa-location-dot"></i></span> 84 Forest Ave, Lake Grove, New York</li>
+                  <li><span class="icon_phone"><i class="fa-solid fa-phone"></i></span> (+12) 345-678-91012</li>
+                  <li><span class="icon_mail"><i class="fa-solid fa-envelope"></i></span> contact.colorlib@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="header__top__social">
+                <a href="#"><span class="social_facebook"><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="#"><span class="social_twitter"><i class="fa-brands fa-twitter"></i></span></a>
+                <a href="#"><span class="social_youtube"><i class="fa-brands fa-youtube"></i></span></a>
+                <a href="#"><span class="social_skype"><i class="fa-brands fa-skype"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__options">
+          <div class="row">
+          <div class="col-lg-3">
+          <div class="header__logo">
+          <a href="./index.html"><img src="images/logo.png" alt=""></a>
+          </div>
+          </div>
+          <div class="col-lg-9">
+          <nav class="header__menu mobile-menu">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Aboutus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+          </div>
+          </div>
+    </div>
+  </header>
+<!--------------------lg screen end---------------------------->
+<!------------------------herosection start------------------------------>
+    <section class="hero spad set-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hero__text">
+              <h2>Let's Make Your Best Trip Ever</h2>
+              <p>Plan and book your perfect trip with expert advice, travel tips, destination information and
+                  inspiration from us.</p>
+              <a href="#" class="primary-btn">Discover Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!----------------------------hero-section end------------------------------->
+<!-----------------------------hero-2 start--------------------------->
+    <div class="filter-search">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form action="#" class="filter__form">
+                <div class="filter__item">
+                  <h5>Where</h5>
+                    <div class="filter__item__input">
+                      <input type="text" placeholder="Center Point, Lo…">
+                      <span class="icon_pin"><i class="fa-solid fa-location-dot"></i></span>
+                    </div>
+                </div>
+                <div class="filter__item">
+                  <h5>Date</h5>
+                  <div class="filter__item__input">
+                    <input type="text" placeholder="09th March, 2021" data-toggle="datepicker">
+                    <span class="icon_calendar"><i class="fa-solid fa-calendar-days"></i></span>
+                  </div>
+                </div>
+                <div class="filter__item">
+                  <h5>Time</h5>
+                  <div class="filter__item__input">
+                    <input type="text" placeholder="09th March, 2021" data-toggle="datepicker">
+                    <span class="icon_calendar"><i class="fa-regular fa-alarm-clock"></i></span>
+                  </div>
+                </div>
+                
+                <button type="submit">Search Plane</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+<!------------------------hero-2 end--------------------------->
+<!-------------------------offers start-------------------------------->
+<section class="hotPlaces spad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="section-title">
+          <h2>Special Offers</h2>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="hotPlaces__top__text">
+          <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+          as opposed to using, making it look like readable English.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="places__item hotPlaces__item">
+          <div class="places__item__pic">
+            <img src="images/hp-1.jpeg" alt="">
+          </div>
+        <div class="places__item__text">
+          <h4><a href="#">Known monument in the black hills of south</a></h4>
+          <p><span class="icon_pin"><i class="fa-solid fa-location-dot"></i></span> Lake Grove, New York</p>
+          <div class="price">$120</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="places__item hotPlaces__item">
+        <div class="places__item__pic">
+          <img src="images/hp-2.jpeg" alt="">
+        </div>
+        <div class="places__item__text">
+          <h4><a href="#">Known monument in the black hills of south</a></h4>
+          <p><span class="icon_pin"><i class="fa-solid fa-location-dot"></i></span> Lake Grove, New York</p>
+          <div class="price">$120</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="places__item hotPlaces__item">
+        <div class="places__item__pic">
+          <img src="images/hp-3.jpeg" alt="">
+        </div>
+        <div class="places__item__text">
+          <h4><a href="#">Known monument in the black hills of south</a></h4>
+          <p><span class="icon_pin"><i class="fa-solid fa-location-dot"></i></span> Lake Grove, New York</p>
+          <div class="price">$120</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+<!------------------------offers end------------------------------->
+<!-------------------------benefit-------------------------------->
+  <section class="benefit spad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="benefit__content">
+          <div class="section-title">
+            <h2>Our Benefit</h2>
+          </div>
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+            </p>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="benefit__item">
+                <h4><img src="images/bi-1.png" alt=""> Personal Schedule</h4>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, making it look like readable English.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="benefit__item">
+                  <h4><img src="images/bi-2.png" alt=""> Luxury Interiors </h4>
+                  <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                  of letters, making it look like readable English.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="benefit__item">
+                <h4><img src="images/bi-3.png" alt=""> Safe &amp; Confidential</h4>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, making it look like readable English.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="benefit__item">
+                <h4><img src="images/bi-4.png" alt=""> Professional Crew</h4>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, making it look like readable English.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="benefit__pic">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="benefit__pic__item">
+                <img src="images/bp-1.jpeg" alt="">
+              </div>
+              <div class="benefit__pic__item">
+                <img src="images/bp-2.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="benefit__pic__item">
+                <img src="images/bp-3.jpeg" alt="">
+              </div>
+              <div class="benefit__pic__item">
+                <img src="images/bp-4.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+<!----------------------benefit end--------------------------------->
+
+<!-----------------------news start------------------------------------>
+<section class="latest spad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      <div class="latest__left">
+        <div class="section-title">
+          <h2>News Latest</h2>
+        </div>
+        <div class="latest__recent">
+          <a href="#" class="latest__recent__item">
+            <div class="latest__recent__item__pic">
+              <img src="images/lr-1.jpeg" alt="">
+            </div>
+            <div class="latest__recent__item__text">
+              <ul>
+                <li>Travel</li>
+                <li>By Admin</li>
+              </ul>
+              <h5>The point of using Lorem psum is that it has...</h5>
+            </div>
+          </a>
+          <a href="#" class="latest__recent__item">
+            <div class="latest__recent__item__pic">
+              <img src="images/lr-2.jpeg" alt="">
+            </div>
+            <div class="latest__recent__item__text">
+              <ul>
+                <li>Travel</li>
+                <li>By Admin</li>
+              </ul>
+              <h5>The point of using Lorem psum is that it has...</h5>
+            </div>
+          </a>
+          <a href="#" class="latest__recent__item">
+            <div class="latest__recent__item__pic">
+              <img src="images/lr-3.jpeg" alt="">
+            </div>
+            <div class="latest__recent__item__text">
+              <ul>
+                <li>Travel</li>
+                <li>By Admin</li>
+              </ul>
+              <h5>The point of using Lorem psum is that it has...</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="latest__content">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="blog__item">
+                <div class="blog__item__pic">
+                  <img src="images/latest-1.jpeg" alt="">
+                </div>
+                <div class="blog__item__text">
+                  <div class="blog__date">Oct 28, 2020</div>
+                    <ul>
+                      <li>Travel</li>
+                      <li>By Admin</li>
+                    </ul>
+                    <h5><a href="#">The point of using Lorem psum is that it has...</a></h5>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="blog__item">
+                <div class="blog__item__pic">
+                  <img src="images/latest-2.jpeg" alt="">
+                </div>
+                <div class="blog__item__text">
+                  <div class="blog__date">Oct 28, 2020</div>
+                    <ul>
+                      <li>Travel</li>
+                      <li>By Admin</li>
+                    </ul>
+                    <h5><a href="#">The point of using Lorem psum is that it has...</a></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------news end------------------------------->
+<!--------------------footer start------------------------>
+<footer class="footer spad">
+  <div class="container">
+    <div class="row d-lfex justify-content-center">
+      <div class="col-lg-7">
+        <div class="footer__text">
+          <div class="footer__about">
+            <div class="footer__logo">
+              <a href="#"><img src="images/footer-logo.png" alt=""></a>
+            </div>
+            <p>Nullam ultrices tortor non diam ullamcorper auctor. In urna tellus, auctor sit amet est
+              ut, scelerisque volutpat diam.</p>
+          </div>
+          <div class="footer__social">
+            <a href="#"><span class="social_facebook"><i class="fa-brands fa-facebook"></i></span></a>
+            <a href="#"><span class="social_twitter"><i class="fa-brands fa-twitter"></i></span></a>
+            <a href="#"><span class="social_youtube"><i class="fa-brands fa-youtube"></i></span></a>
+            <a href="#"><span class="social_skype"><i class="fa-brands fa-skype"></i></span></a>
+          </div>
+          <div class="footer__nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+  
+          <p class="footer__copyright">
+            Copyright ©2023 All rights reserved | This template is made with 
+            <i class="fa fa-heart color-danger"></i> by <a href="">Colorlib</a>
+          </p>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+  <!-------------------footer end-------------------->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
